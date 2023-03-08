@@ -1,4 +1,4 @@
-package com.example.flutter_nearby_connections_plus
+package com.example.flutter_nearby_connections
 
 import io.flutter.embedding.android.FlutterActivity
 

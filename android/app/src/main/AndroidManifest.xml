@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_nearby_connections_plus">
+    package="com.example.flutter_nearby_connections">
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
@@ -18,7 +18,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
    <application
-        android:label="flutter_nearby_connections_plus"
+        android:label="flutter_nearby_connections"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
