@@ -18,6 +18,6 @@ flutter:
     platforms:
       android:
         package: com.nankai.flutter_nearby_connections
-        pluginClass: FlutterNearbyConnectionsPlugin
+        pluginClass: MainActivity
       ios:
-        pluginClass: FlutterNearbyConnectionsPlugin
+        pluginClass: MainActivity
