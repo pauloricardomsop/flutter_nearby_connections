@@ -42,7 +42,7 @@ const val INVOKE_MESSAGE_RECEIVE_METHOD = "invoke_message_receive_method"
 const val NEARBY_RUNNING = "nearby_running"
 
 /** FlutterNearbyConnectionsPlugin */
-class FlutterNearbyConnectionsPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
+class FlutterNearbyConnectionsPlugin : FlutterPlugin, MethodCallHandler, ActivityAware: FlutterActivity() {
     private lateinit var channel: MethodChannel
     private var locationHelper: LocationHelper? = null
     private lateinit var activity: Activity
